@@ -580,13 +580,13 @@ footer .addr{
 } */
 @media screen and (max-width: 820px){
    .container .header .nav nav ul {
-     gap: 8px;
+     gap: 50px;
    }
 }
 
 /* mobile devices */
 
-@media screen and (max-width: 775px) {
+@media screen and (max-width: 820px) {
     
     .header {
         flex-direction: column;
