@@ -58,7 +58,7 @@ body {
     color: #404040;
 }
 .container .header .nav{
-    margin-left: 56px;
+    margin-left: auto;
 }
 .container .header .nav nav ul{
     display: flex;
