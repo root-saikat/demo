@@ -527,8 +527,74 @@ footer .links ul li{
         margin-left: 0;
         padding-top: 50px;
     }
-
-
-
     
+}
+
+/* mobile devices */
+
+@media screen and (max-width: 775px) {
+    
+    .header {
+        flex-direction: column;
+        gap: 25px;
+        justify-content: center;
+    }
+    .container .header .src {
+        margin-left: 0;
+    }
+    .container .header .nav {
+        margin-left: 0;
+    }
+    .container .header .reg{
+        margin-left: 0;
+    }
+    .container .about {
+        padding: 60px 20px 0px 20px;
+    }
+    .container .about .desc {
+        padding: 0px 20px;
+    }
+    .container .about .desc .item {
+        display: flex;
+        gap: 0;
+        flex-direction: column;
+        align-items: center;
+    }
+    .container .about .desc .item .text {
+        padding-top:0;
+        text-align: center;
+    }
+    .desc {
+        display: grid;
+        gap: 50px;
+    }
+    .container .about {
+        margin-bottom: 50px;
+        padding: 60px 6px 0px 6px;
+    }
+    .charities {
+        padding: 0 25px;
+    }
+    .contact .textmap h2 {
+        text-align: center;
+    }
+    .contact .form form {
+        width: fit-content;
+        max-width: 100%;
+    }
+    .contact .form form input, textarea{
+        width: fit-content;
+    }
+    .contact .form form .sub{
+        margin: 0 auto;
+    }
+    .contact {
+        padding: 80px 0 15px 0px;
+    }
+
+
+
+
+
+
 }
