@@ -37,8 +37,9 @@ body {
     border: 1px solid #e7e7e7;
     border-radius: 8px;
     padding: 15px;
-    max-width: 460px;
     min-width: 189px;
+    max-width: 460px;
+    
 
 }
 
