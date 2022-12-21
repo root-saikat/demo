@@ -368,7 +368,7 @@ body {
 .contact .form form{
     display: grid;
     gap: 30px;
-    width: 580px;
+    /* width: 580px; */
     max-width: 580px;
     height: 100%;
 }
@@ -377,7 +377,7 @@ body {
     border: 1px solid #707070;
     padding: 15px 30px;
     border-radius: 50px;
-    width: 580px;
+    max-width: 580px;
     font-size: 23.50px;
 }
 
