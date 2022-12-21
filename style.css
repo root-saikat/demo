@@ -446,3 +446,88 @@ footer .links ul li{
 .addr .pn .sp2{
     color: #f8f9f9c9;
 }
+
+
+
+@media screen and (max-width: 850px) {
+    
+    .container .header{
+        padding: 15px 20px 15px 20px;
+    }
+    .container .header .src {
+        margin-left: 25px;
+    }
+    .container .header .src .srcbox{
+        min-width: 176px;
+    }
+    .container .header .nav nav ul{
+        gap: 10px;
+    }
+    /* about section */
+    .container .about .title p {
+        font-size: 21px;
+    }
+    .container .about {
+        padding: 60px 50px 0px 50px;
+    }
+    .container .about .desc {
+        padding: 0px 50px;
+    }
+    .container .about .desc .item .text p {
+        font-size: 21.5px;
+    }
+    .charities {
+        padding: 0 100px;
+    }
+    .app{
+        background-size: contain;
+    }
+    .donor {
+        background: #49ce8c;
+        display: flex;
+        padding: 40px 0 35px 0;
+        gap: 100px;
+        flex-direction: column;
+        align-items: center;
+    }
+    .contact {
+        padding: 80px 0 0 0px;
+        display: flex;
+        gap: 70px;
+        flex-direction: column;
+    }
+    .contact .textmap {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        margin: 0 auto;
+    }
+    .form {
+        margin: 0 auto;
+    }
+    footer {
+        background: #005c2d;
+        padding: 60px 0px 70px 0px;
+        margin-top: 7px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    footer .links {
+        margin-left: 0;
+        margin-top: 50px;
+    }
+    footer .links ul {
+        display: flex;
+        flex-direction: row;
+        gap: 32px;
+    }
+    .addr {
+        margin-left: 0;
+        padding-top: 50px;
+    }
+
+
+
+    
+}
