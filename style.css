@@ -462,6 +462,9 @@ footer .addr{
     .contact {
         padding: 80px 0 0 80px;
     }
+    .container .header .nav nav ul {
+        gap: 75px;
+    }
 }
 
 @media screen and (max-width: 1069px) {
@@ -553,10 +556,32 @@ footer .addr{
     
 }
 
-@media screen and (max-width: 1057px) {
-    .container .header .nav nav ul {
-        gap: 80px;
-    }
+
+
+/* @media screen and (max-width: 920px){
+   .container .header .nav nav ul {
+     gap: 60px;
+   }
+} */
+/* @media screen and (max-width: 890px){
+   .container .header .nav nav ul {
+     gap: 45px;
+   }
+}
+@media screen and (max-width: 860px){
+   .container .header .nav nav ul {
+     gap: 35px;
+   }
+}
+@media screen and (max-width: 833px){
+   .container .header .nav nav ul {
+     gap: 25px;
+   }
+} */
+@media screen and (max-width: 820px){
+   .container .header .nav nav ul {
+     gap: 8px;
+   }
 }
 
 /* mobile devices */
