@@ -405,7 +405,7 @@ footer{
 }
 
 footer .links{
-    margin-left: 380px;
+    margin-left: auto;
     padding-top: 10px;
 }
 
@@ -435,8 +435,9 @@ footer .links ul li{
   gap: 29px;
 }
 
-.addr{
+footer .addr{
     margin-left: 150px;
+    margin-right: 44px;
     display: flex;
     flex-direction: column;
     gap: 32px;
@@ -448,9 +449,31 @@ footer .links ul li{
 }
 
 
+@media screen and (max-width: 1280px) {
+    .container .about .title p {
+        font-size: 26px;
+    }
+    
+}
+@media screen and (max-width: 1130px) {
+    .donor {
+        padding: 32px 0 35px 80px;
+    }
+    .contact {
+        padding: 80px 0 0 80px;
+    }
+}
 
+@media screen and (max-width: 1069px) {
+    .donor {
+        padding: 32px 0 35px 70px;
+    }
+    .contact {
+        padding: 80px 0 0 65px;
+    }
+}
 
-@media screen and (max-width: 850px) {
+@media screen and (max-width: 1060px) {
 
     .container .header{
         padding: 15px 20px 15px 20px;
@@ -528,6 +551,12 @@ footer .links ul li{
         padding-top: 50px;
     }
     
+}
+
+@media screen and (max-width: 1057px) {
+    .container .header .nav nav ul {
+        gap: 80px;
+    }
 }
 
 /* mobile devices */
